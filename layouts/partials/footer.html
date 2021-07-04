@@ -5,6 +5,7 @@
     {{ . }}
 {{ else }}
     {{ $.Param "author" }}  •  {{ .Site.LastChange.Format "2006" }}
+    •  build with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/davidhampgonsalves/hugo-black-and-light-theme">Black & Light</a> Theme
 {{ end }}
 </section>
 
